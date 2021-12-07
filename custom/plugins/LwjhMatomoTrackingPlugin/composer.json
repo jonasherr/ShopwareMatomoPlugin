@@ -1,0 +1,35 @@
+{
+  "name": "lwjh/matomo-tracking-plugin",
+  "description": "Integrates Matomo Tracking in Shopware",
+  "version": "0.0.1",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lena Wilhelm"
+    },
+    {
+      "name": "Jonas Herrmannsdörfer"
+    }
+  ],
+  "require": {
+    "shopware/core": "6.4.*",
+    "matomo/matomo-php-tracker": "^3.0"
+  },
+  "extra": {
+    "shopware-plugin-class": "Lwjh\\MatomoTrackingPlugin\\LwjhMatomoTrackingPlugin",
+    "label": {
+      "de-DE": "Matomo Tracking",
+      "en-GB": "Matomo Tracking"
+    },
+    "description": {
+      "de-DE": "Integriert Matomo Tracking in Shopware",
+      "en-GB": "Integrates Matomo Tracking in Shopware"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Lwjh\\MatomoTrackingPlugin\\": "src/"
+    }
+  }
+}

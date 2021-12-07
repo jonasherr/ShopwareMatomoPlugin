@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Matomo configuration</title>
+        <input-field type="int">
+            <name>matomoSiteId</name>
+            <label>Matomo Site Id</label>
+        </input-field>
+        <input-field type="url">
+            <name>matomoURL</name>
+            <label>Matomo URL</label>
+            <placeholder>example.org/matomo/</placeholder>
+        </input-field>
+    </card>
+</config>

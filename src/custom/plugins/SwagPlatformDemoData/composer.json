@@ -1,0 +1,39 @@
+{
+    "name": "swag/demo-data",
+    "description": "Plugin including demo data",
+    "version": "1.0.8",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shopware AG"
+        }
+    ],
+    "require": {
+        "shopware/core": "^6.4"
+    },
+    "extra": {
+        "shopware-plugin-class": "Swag\\PlatformDemoData\\SwagPlatformDemoData",
+        "label": {
+            "de-DE": "Shopware 6 Demodaten",
+            "en-GB": "Shopware 6 Demo data"
+        },
+        "description": {
+            "de-DE": "Demodaten Plugin für Shopware 6. Nicht in Produktiv-Umgebungen nutzen!",
+            "en-GB": "Demo data plugin for Shopware 6. Do not use in production environments!"
+        },
+        "manufacturerLink": {
+            "de-DE": "https://store.shopware.com/shopware-ag.html",
+            "en-GB": "https://store.shopware.com/en/shopware-ag.html"
+        },
+        "supportLink": {
+            "de-DE": "https://docs.shopware.com/de",
+            "en-GB": "https://docs.shopware.com/en"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Swag\\PlatformDemoData\\": "src/"
+        }
+    }
+}
